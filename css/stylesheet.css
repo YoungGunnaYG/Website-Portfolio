@@ -9,7 +9,11 @@ body {
 
 /* Initial menu */
 .menu {
+<<<<<<< HEAD
     background: #2c2b2b;
+=======
+background: #c7c7c7; 
+>>>>>>> origin/gh-pages
 
     left: -225px;  /* start off behind the scenes */
     height: 100%;
@@ -143,9 +147,15 @@ form .submit-warp input{
     background-color: #cac7c7;
     margin-top: 25px;
 }
+<<<<<<< HEAD
 .footer em{
     font-family: "Open Sans";
     color: #eeeee;
     padding: 25px;
     margin: 50px;
 }
+=======
+.icon{
+background-image: "images/menu-icon(32x32).png";
+}
+>>>>>>> origin/gh-pages
