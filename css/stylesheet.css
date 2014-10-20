@@ -65,7 +65,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-}.icon-close img{
+.icon-close img{
     cursor: pointer;
     padding-left: 15px;
     padding-top: 15px;
@@ -118,22 +118,34 @@ textarea{
     max-height: 325px;
     background-color:  #cac7c7;
     box-shadow: #9f9d9d 4px;
-    min-width: 475px;max-width: 475px;
+    min-width: 475px;
+	max-width: 475px;
     font-family: "Open Sans";
     color: #eee;
     font-size:  15px;
     border-radius: 6px;
 }
-form .submit-warp input{
+form input{
+	padding: 5px;
     height: 50px;
     width: 75px;
     display: block;
-    color: none;
+    background-color: grey;
     border-width: 2px;
     border-style: solid;
     border: #eee;
-    
 }
+ .submit-wrap {
+	border-radius: 5px;
+	height: 30px;
+	width: 50px;
+	background-color: #cac7c7;
+	border: 1px solid #9f9d9d;
+	color: #eee;
+	text-decoration: none;
+	font-family: 'Open Sans';
+} 
+
 
 /* -------End Contact Form stlyes start here-------*/
 .footer{
