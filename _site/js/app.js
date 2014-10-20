@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var main = function() {
   /* Push the body and the nav over by 285px over */
   $('.icon-menu').click(function() {
     $('.menu').animate({
@@ -20,10 +20,7 @@ $(document).ready(function(){
       left: "0px"
     }, 200);
   });
-});
-    $('input').focus(function(){
-        $(this).css('outline-color', '#00ff33');    $('textarea').focus(function(){
-        $(this).css('outline-color', '#00ff33');
-    });
-    
-});
+};
+
+
+$(document).ready(main);

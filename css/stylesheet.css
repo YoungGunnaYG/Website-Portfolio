@@ -1,87 +1,151 @@
 /* Initial body */
 body {
-  left: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
-color: #eee;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    color: #eee;
 }
 
 /* Initial menu */
 .menu {
-background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    background: #2c2b2b;
 
-  left: -225px;  /* start off behind the scenes */
-  height: 100%;
-  position: fixed;
-  width: 225px;
+    left: -225px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 225px;
 }
 
 /* Basic styling */
 
 .jumbotron {
   /*background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png'); */
-  background: #eeeeee; 
-  height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+    background: #eeeeee; 
+    height: 100%;
+        -webkit-background-size: cover;
+            -moz-background-size: cover;
+                -o-background-size: cover;
+                    background-size: cover;
 }
 
 .menu ul {
-  border-top: 2px solid #515151;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    border-top: 2px solid #515151;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu li {
-  border-bottom: 2px solid #515151;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 3px;
+    border-bottom: 2px solid #515151;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
 }
 
 .menu a {
-  color: #eeeeee;
-  margin-left: 25px;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
+    color: #eeeeee;
+    margin-left: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 .menu a:hover {
-  color: #c7c7c7;
-  margin-left: 25px;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
+    color: #c7c7c7;
+    margin-left: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
-.icon-close {
-  cursor: pointer;
-  padding-left: 15px;
-  padding-top: 15px;
+.menu li .active{
+    color: #c7c7c7;
+    margin-left: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+}.icon-close img{
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .icon-menu {
-  color: #636363;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
+    color: #2c2b2b;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 30px;
+    width: 145px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .icon-menu i {
-  margin-right: 10px;
+    margin-right: 10px;
 
 }
-.icon{
-background-image: "images/menu-icon(32x32).png";
+/* ---------Contact Form stlyes start here----------------*/
+form{
+    height: 475px;
+    border-radius: 6px;
+    background-color: #2c2b2b;
+    width: 500px;
+    display: block;
+    padding: 50px;
+    margin-left: 250px;
+}
+form .contact-info-group input{
+    height: 10px;
+    width: 475px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color:  #cac7c7;
+    box-shadow: #9f9d9d 4px;
+    font-family: "Open Sans";
+    color: #eee;
+    font-size: 15px;
+}
+textarea{
+    padding: 15px;
+    margin-bottom: 15px;
+    min-height: 325px;
+    max-height: 325px;
+    background-color:  #cac7c7;
+    box-shadow: #9f9d9d 4px;
+    min-width: 475px;max-width: 475px;
+    font-family: "Open Sans";
+    color: #eee;
+    font-size:  15px;
+    border-radius: 6px;
+}
+form .submit-warp input{
+    height: 50px;
+    width: 75px;
+    display: block;
+    color: none;
+    border-width: 2px;
+    border-style: solid;
+    border: #eee;
+    
+}
+
+/* -------End Contact Form stlyes start here-------*/
+.footer{
+    height: 150px;   
+    display: block;
+    background-color: #cac7c7;
+    margin-top: 25px;
+}
+.footer em{
+    font-family: "Open Sans";
+    color: #eeeee;
+    padding: 25px;
+    margin: 50px;
 }
